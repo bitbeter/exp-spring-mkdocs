@@ -1,3 +1,5 @@
 spring.application.name: config
 spring.cloud.config.server.git.uri: https://github.com/bitbeter/exp-spring-mkdocs-configs
+spring.cloud.config.server.overrides:
+  testing-key: 1000
 server.port: 8888
