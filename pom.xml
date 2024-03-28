@@ -6,6 +6,7 @@
     <modules>
         <module>config</module>
         <module>api-gateway</module>
+        <module>auth</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

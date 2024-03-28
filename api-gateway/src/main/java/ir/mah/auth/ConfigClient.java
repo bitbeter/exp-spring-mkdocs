@@ -1,4 +1,4 @@
-package ir.mah.apigateway;
+package ir.mah.auth;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;

@@ -1,0 +1,13 @@
+server.port: 8081
+
+spring:
+  config.import: configserver:http://localhost:8888
+  profiles.active: dev
+  application.name: auth
+
+spring.cloud.config:
+  allowOverride: true
+  overrideNone: true
+  failFast: true
+
+management.endpoints.web.exposure.include: info, health, refresh

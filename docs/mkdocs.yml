@@ -3,6 +3,9 @@ extra:
   version:
     provider: mike
 
+plugins:
+  - swagger-ui-tag
+
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
@@ -31,9 +34,20 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+reveal:
+  path: reveal/dist
+  transition: slide
+  rtl: true
+  theme:
+    name: black.css
+    path: theme
+  plugin:
+    path: reveal/plugin
+
 site_name: My Docs
 theme:
   name: material
+  custom_dir: theme
   features:
     - content.code.annotate
     - content.code.copy

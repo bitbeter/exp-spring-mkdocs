@@ -9,6 +9,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
+<swagger-ui src="http://localhost:8081/v3/api-docs" />
+
 mkdocs.yml    # The configuration file.
     
 
